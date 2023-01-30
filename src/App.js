@@ -10,6 +10,7 @@ export default function App() {
         <footer>
           This project is coded by Neelam Katwal and is{" "}
           <a
+            className="text-decoration-none"
             href="https://github.com/NeelamK1990/react-weather-app"
             target="_blank"
             rel="noreferrer"
