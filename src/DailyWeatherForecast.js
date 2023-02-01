@@ -25,7 +25,7 @@ export default function DailyWeatherForecast(props) {
     let apiKey = "cf1ef184bc4f8c6749a14597b0b5efe6";
     let longitude = props.coordinates.lon;
     let latitude = props.coordinates.lat;
-    let apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}$units=matric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}$units=matric`;
 
     axios.get(apiUrl).then(handelResponse);
 
