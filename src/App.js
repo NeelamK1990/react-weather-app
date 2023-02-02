@@ -8,7 +8,16 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Philadelphia" />
         <footer>
-          This project is coded by Neelam Katwal and is{" "}
+          This project is coded by{" "}
+          <a
+            className="text-decoration-none"
+            href="/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Neelam Katwal
+          </a>{" "}
+          and is{" "}
           <a
             className="text-decoration-none"
             href="https://github.com/NeelamK1990/react-weather-app"
@@ -16,6 +25,15 @@ export default function App() {
             rel="noreferrer"
           >
             open-sourced on GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            className="text-decoration-none"
+            href="https://nee-react-weather-app.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify.
           </a>
         </footer>
       </div>

@@ -16,11 +16,11 @@ export default function WeatherForecast(props) {
         <div className="col-6">
           <div className="clearfix d-flex ">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} size={64} />
+              <WeatherIcon code={props.data.icon} size={52} />
             </div>
 
             <div className="float-left">
-              <WeatherTemperature celsius={props.data.temperature} />
+              <WeatherTemperature fahrenheit={props.data.temperature} />
             </div>
           </div>
         </div>
